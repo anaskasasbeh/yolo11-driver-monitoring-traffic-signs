@@ -1,0 +1,26 @@
+# Traffic Sign Detection (TSD) dataset: road-facing camera, 15 classes.
+# Paths are relative to this file. Put the dataset in data/tsd/ (see data/README.md).
+#
+# This file only describes WHERE the images are and WHAT the classes are.
+# Training and augmentation settings live in src/train.py and src/config.py.
+
+train: ../data/tsd/train/images
+val: ../data/tsd/valid/images
+test: ../data/tsd/test/images
+
+names:
+  0: Green Light
+  1: Red Light
+  2: Speed Limit 10
+  3: Speed Limit 100
+  4: Speed Limit 110
+  5: Speed Limit 120
+  6: Speed Limit 20
+  7: Speed Limit 30
+  8: Speed Limit 40
+  9: Speed Limit 50
+  10: Speed Limit 60
+  11: Speed Limit 70
+  12: Speed Limit 80
+  13: Speed Limit 90
+  14: Stop

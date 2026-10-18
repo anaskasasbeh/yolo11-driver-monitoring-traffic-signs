@@ -1,0 +1,28 @@
+{
+  "task": "tsd",
+  "split": "test",
+  "model_file": "tsd_yolo11m.pt",
+  "dataset_config": "tsd.yaml",
+  "images": 637,
+  "instances": 769,
+  "precision": 0.9354,
+  "recall": 0.9311,
+  "mAP50": 0.9613,
+  "mAP50-95": 0.8218,
+  "classes_without_instances": [],
+  "speed_ms_per_image": {
+    "preprocess": 2.94,
+    "inference": 661.9,
+    "loss": 0.0,
+    "postprocess": 1.65
+  },
+  "settings": {
+    "imgsz": 640,
+    "conf": 0.001,
+    "iou": 0.7
+  },
+  "hardware": "CPU: Intel Core i5-10210U 1.60GHz",
+  "ultralytics": "8.4.182",
+  "torch": "2.14.1+cpu",
+  "date_utc": "2026-10-18T14:16:41+00:00"
+}

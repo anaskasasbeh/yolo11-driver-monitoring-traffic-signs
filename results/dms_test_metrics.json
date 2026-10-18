@@ -1,0 +1,28 @@
+{
+  "task": "dms",
+  "split": "test",
+  "model_file": "dms_yolo11l.pt",
+  "dataset_config": "dms.yaml",
+  "images": 1538,
+  "instances": 3076,
+  "precision": 0.9144,
+  "recall": 0.8519,
+  "mAP50": 0.9094,
+  "mAP50-95": 0.676,
+  "classes_without_instances": [],
+  "speed_ms_per_image": {
+    "preprocess": 1.96,
+    "inference": 592.76,
+    "loss": 0.0,
+    "postprocess": 2.0
+  },
+  "settings": {
+    "imgsz": 640,
+    "conf": 0.001,
+    "iou": 0.7
+  },
+  "hardware": "CPU: Intel Core i5-10210U 1.60GHz",
+  "ultralytics": "8.4.182",
+  "torch": "2.14.1+cpu",
+  "date_utc": "2026-10-18T14:08:36+00:00"
+}

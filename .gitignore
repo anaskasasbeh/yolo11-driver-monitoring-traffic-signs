@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.ruff_cache/
+.pytest_cache/
+
+# Secrets (none are needed, but never commit them)
+.env
+
+# Model weights: large files, published on GitHub Releases instead
+*.pt
+*.onnx
+*.engine
+
+# Datasets: not stored in git (see data/README.md)
+data/*
+!data/README.md
+
+# Training, evaluation and detection outputs
+runs/
+
+# Local dataset reports (regenerate with scripts/inspect_dataset.py)
+results/*_dataset_stats.json
+
+# Videos are too large for git; link them from the README instead
+*.mp4
+*.avi
+*.mov
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

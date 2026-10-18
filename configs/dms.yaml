@@ -1,0 +1,16 @@
+# Driver Monitoring System (DMS) dataset: in-cabin camera, 5 classes.
+# Paths are relative to this file. Put the dataset in data/dms/ (see data/README.md).
+#
+# This file only describes WHERE the images are and WHAT the classes are.
+# Training and augmentation settings live in src/train.py and src/config.py.
+
+train: ../data/dms/train/images
+val: ../data/dms/valid/images
+test: ../data/dms/test/images
+
+names:
+  0: Open Eye
+  1: Closed Eye
+  2: Cigarette
+  3: Phone
+  4: Seatbelt

@@ -1,0 +1,30 @@
+{
+  "dms": {
+    "val_images": 2389,
+    "val_instances": 5773,
+    "precision": 0.913,
+    "recall": 0.854,
+    "mAP50": 0.92,
+    "mAP50-95": 0.673,
+    "epochs_in_history_csv": "61-100",
+    "speed_ms_per_image_tesla_t4": {
+      "preprocess": 0.2,
+      "inference": 9.6,
+      "postprocess": 0.9
+    }
+  },
+  "tsd": {
+    "val_images": 801,
+    "val_instances": 944,
+    "precision": 0.956,
+    "recall": 0.956,
+    "mAP50": 0.974,
+    "mAP50-95": 0.857,
+    "epochs_in_history_csv": "50-100",
+    "speed_ms_per_image_tesla_t4": {
+      "preprocess": 0.2,
+      "inference": 10.6,
+      "postprocess": 2.1
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Tested with Python 3.11 (3.12 also has wheels for every package below).
+# On Windows, pip installs the CPU build of PyTorch from PyPI. For an NVIDIA GPU,
+# install the CUDA build of torch/torchvision first (see https://pytorch.org).
+ultralytics==8.4.182
+torch==2.14.1
+torchvision==0.29.1
+opencv-python==5.0.0.93
+numpy==2.4.6
+PyYAML==6.0.3
+pyttsx3==2.99

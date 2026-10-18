@@ -1,0 +1,21 @@
+task,class,train_images,train_objects,val_images,val_objects,test_images,test_objects
+dms,Open Eye,3987,7355,1485,2710,610,1113
+dms,Closed Eye,544,770,358,530,205,303
+dms,Cigarette,2424,2479,430,453,891,975
+dms,Phone,1503,1724,504,588,212,240
+dms,Seatbelt,2040,2212,1461,1492,438,445
+tsd,Green Light,380,513,72,101,77,110
+tsd,Red Light,410,559,67,99,71,94
+tsd,Speed Limit 10,12,16,0,0,2,3
+tsd,Speed Limit 100,248,251,48,48,45,46
+tsd,Speed Limit 110,91,93,16,16,21,21
+tsd,Speed Limit 120,233,243,54,54,40,44
+tsd,Speed Limit 20,272,277,49,49,45,45
+tsd,Speed Limit 30,325,328,61,64,60,60
+tsd,Speed Limit 40,211,217,45,47,51,53
+tsd,Speed Limit 50,263,280,56,59,47,50
+tsd,Speed Limit 60,297,297,67,67,45,45
+tsd,Speed Limit 70,307,312,69,69,52,53
+tsd,Speed Limit 80,306,311,48,48,60,61
+tsd,Speed Limit 90,156,157,37,37,33,34
+tsd,Stop,280,280,71,71,50,50
